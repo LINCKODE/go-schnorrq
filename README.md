@@ -2,6 +2,8 @@
 
 This Go module implements the generation and verification of Schnorr signatures on the FourQ elliptic curve.
 
+> Based on the [Qubic implementation](https://github.com/qubic/go-schnorrq)
+
 ## Features
 
 - Simple and easy to use
