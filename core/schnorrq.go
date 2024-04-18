@@ -2,8 +2,8 @@ package core
 
 import (
 	"github.com/linckode/circl/ecc/fourq"
-	"github.com/linckode/schnorrq/hash"
-	"github.com/linckode/schnorrq/montgomery"
+	"github.com/linckode/go-schnorrq/hash"
+	"github.com/linckode/go-schnorrq/montgomery"
 	"github.com/pkg/errors"
 )
 

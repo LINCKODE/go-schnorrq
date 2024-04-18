@@ -1,10 +1,10 @@
-package main
+package schnorrq
 
 import (
 	"encoding/hex"
-	"github.com/linckode/schnorrq/ctx"
-	"github.com/linckode/schnorrq/keypair"
-	"github.com/linckode/schnorrq/keypair/public"
+	"github.com/linckode/go-schnorrq/ctx"
+	"github.com/linckode/go-schnorrq/keypair"
+	"github.com/linckode/go-schnorrq/keypair/public"
 	"testing"
 )
 
@@ -30,11 +30,10 @@ func Test(t *testing.T) {
 
 	signature, err := context.Sign(pair, message[:])
 	if err != nil {
-
 		t.Errorf("Encountered error while singining: %s", err.Error())
 		return
 	}
-	
+
 	t.Logf("Signature: %s\n", hex.EncodeToString(signature[:]))
 
 	err = context.Verify(pair, message[:], signature)

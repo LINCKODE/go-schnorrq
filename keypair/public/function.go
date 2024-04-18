@@ -2,7 +2,7 @@ package public
 
 import (
 	"github.com/linckode/circl/ecc/fourq"
-	"github.com/linckode/schnorrq/hash"
+	"github.com/linckode/go-schnorrq/hash"
 )
 
 type Generator interface {

@@ -1,7 +1,7 @@
 package montgomery
 
 import (
-	"github.com/linckode/schnorrq/order"
+	"github.com/linckode/go-schnorrq/order"
 	"github.com/pkg/errors"
 )
 

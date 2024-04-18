@@ -3,7 +3,7 @@ package keypair
 import (
 	"encoding/hex"
 	"fmt"
-	"github.com/linckode/schnorrq/keypair/public"
+	"github.com/linckode/go-schnorrq/keypair/public"
 )
 
 type KeyPair struct {
